@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Finder✨</title>
+    <link rel="stylesheet" href="style.css">  
+  </head>
+  <body>
+
+    <div class="header">
+       <div class="header-row">
+        <img src="images/mug.png" class="header-icon float" id="cup">        
+        <h1>Cafe Finder✨</h1>
+        <img src="images/cake-slice.png" class="header-icon float" id="cake">
+        </div>
+        <p>Find a cafe that matches your perfect vibe.</p>
+    </div>
+
+    <input type="text" id="searchInput" placeholder="Search for a cafe...">
+
+    <div class="filters">
+        <button class="filter-button" data-vibe="chill">☕Chill & Cozy</button>
+        <button class="filter-button" data-vibe="study">📖 Study Corner</button>
+        <button class="filter-button" data-vibe="date">🩷 Date Spot</button>
+        <button class="filter-button" data-vibe="family">👨‍👩‍👧 Family Friendly</button>
+        <button class="filter-button" data-vibe="girls">🎀 Girls Hangout</button>
+    </div>
+
+    <div class="results-section">
+      <div class="cafe-list">
+      </div>
+    </div>
+
+<div class="sparkles">
+  <span class="spark" style="top:10%; left:15%">✨</span>
+  <span class="spark" style="top:25%; left:80%">✨</span>
+  <span class="spark" style="top:50%; left:5%">✨</span>
+  <span class="spark" style="top:70%; left:60%">✨</span>
+  <span class="spark" style="top:85%; left:30%">✨</span>
+  <span class="spark" style="top:15%; left:50%">✨</span>
+</div>
+
+    <script src="script.js"></script>  <!-- connects JS, always at the bottom -->
+  </body>
+</html>
